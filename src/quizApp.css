@@ -1,0 +1,81 @@
+.s-container {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*display flex*/
+  background-color: #012c6b;
+}
+form {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  /*display flex*/
+  padding: 20px;
+  gap: 50px;
+  box-shadow: 0px 0px 12px 4px rgb(0, 195, 255);
+}
+form h3 {
+  background-color: #0270cf;
+  width: 100%;
+  padding: 10px;
+  color: white;
+}
+form input[type="radio"] {
+  display: none;
+}
+form .labels-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*display flex*/
+  width: 100%;
+  padding: 5px;
+  gap: 10px;
+}
+form div:nth-of-type(1) label {
+  background-color: #0270cf;
+  color: white;
+  width: 60%;
+  border-radius: 50px;
+  padding: 5px 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+form > div label:hover {
+  background-color: #008cff;
+}
+.infos-display {
+  width: 100%;
+  background-color: #00244d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 5px;
+  /*display flex*/
+}
+.infos-display h6 {
+  padding-left: 10px;
+  text-transform: uppercase;
+  color: greenyellow;
+}
+#submit-btn {
+  width: 200px;
+  background-color: #00244d;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in;
+}
+#submit-btn:hover {
+  background-color: yellow;
+  color: black;
+}
